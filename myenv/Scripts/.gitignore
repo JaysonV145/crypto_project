@@ -1,0 +1,18 @@
+# Ignorar entorno virtual de Python
+myenv/
+venv/
+
+# Ignorar archivos de caché y compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar configuración de entornos (credenciales)
+.env
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar dependencias de Node.js en React
+node_modules/
+dist/
