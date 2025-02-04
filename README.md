@@ -1,6 +1,6 @@
-# Crypto Dashboard
+# Crypto
 
-Crypto Dashboard es una aplicación web para visualizar información en tiempo real sobre criptomonedas y WEB 3.0.
+Crypto es una aplicación web para visualizar información en tiempo real sobre criptomonedas y WEB 3.0.
 
 ## 🚀 Tecnologías usadas:
 
