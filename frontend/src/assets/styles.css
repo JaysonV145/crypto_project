@@ -7,19 +7,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
   height: 100vh;
   color: #333;
 }
 
 /* Crypto dashboard container */
 .crypto-dashboard {
-  width: 100%;
-
+  width: 90%;
+  max-width: 1200px;
   padding: 20px;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
   transition: transform 0.3s ease;
 }
 
@@ -35,7 +35,6 @@ body {
   margin-bottom: 30px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-top: 80px;
 }
 
 /* Loading message */
@@ -50,12 +49,6 @@ body {
 ul {
   list-style-type: none;
   padding: 0;
-  display: flex;
-  flex-wrap: wrap; /* Permite que las tarjetas se ajusten si no caben en una sola línea */
-  justify-content: center; /* Centra los elementos horizontalmente */
-  gap: 20px; /* Espacio entre los elementos */
-  padding: 10px;
-  list-style: none;
 }
 
 /* Individual crypto item */
@@ -98,7 +91,7 @@ img {
 }
 
 /* Responsive design */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .crypto-dashboard {
     width: 95%;
     padding: 15px;
