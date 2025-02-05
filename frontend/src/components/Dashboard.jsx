@@ -1,6 +1,6 @@
 import React from "react";
 import Sidebar from "./Sidebar";
-import CryptoPrices from "../CryptoPrices";
+import CryptoPrices from "./CryptoPrices";
 
 const Dashboard = () => {
   return (

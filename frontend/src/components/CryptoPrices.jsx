@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import "./assets/styles.css";
+import "./Cryptos.module.css";
+import styles from "../components/Cryptos.module.css";
 
 const CryptoPrices = () => {
   const [cryptos, setCryptos] = useState([]);
