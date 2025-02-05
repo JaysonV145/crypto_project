@@ -9,7 +9,7 @@ def get_crypto_prices(request):
     params = {
         "vs_currency": "usd", #Precios en dólares
         "order": "market_cap_desc", #Se ordena por capitalización de mercado
-        "per_page": 10, #Número de criptos a obtener
+        "per_page": 6, #Número de criptos a obtener
         "page": 1, #Página de resultados
         "sparkline": "false" #Se pone en false porque no se necesitan gráficos en miniatura
     }
